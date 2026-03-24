@@ -1,5 +1,5 @@
 # -요구사항 분석
-<img width="1269" height="604" alt="image" src="https://github.com/user-attachments/assets/e99dfde6-eec0-454e-bc4f-b017ba99e320" />
+<img width="1266" height="430" alt="image" src="https://github.com/user-attachments/assets/84dbaa20-f7ee-4743-bc71-2a908f268237" />
 
 # -DB설계-개념ERD
 <img width="1152" height="753" alt="resale_platform_개념ERD" src="https://github.com/user-attachments/assets/f3d15fe7-0e8d-4a9b-9df6-715e8c08bbeb" />
