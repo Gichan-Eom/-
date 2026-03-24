@@ -1,0 +1,131 @@
+body {
+  background: #fff;
+  margin: 0;
+  font-family: 'Pretendard', 'Malgun Gothic', sans-serif;
+}
+
+.product-form-container {
+  width: 420px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.img-upload-box {
+  width: 120px;  /* 120px로 통일 */
+  height: 120px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+.camera-icon {
+  width: 36px;
+  height: 36px;
+  opacity: 0.7;
+}
+
+/* ===== 입력란(상품명/판매가격/거래지역/구매시기/사용기간/상세설명) ===== */
+.product-title,
+.product-price,
+.product-detail,
+.product-detail-desc {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1.5px solid #e35e5e; /* 진한 빨간색 테두리 통일 */
+  border-radius: 3px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  padding-left: 8px;
+  font-family: inherit;
+  outline: none;
+}
+
+.product-detail {
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #e35e5e; /* 이 부분만 기존 유지 */
+}
+
+/* 상세 설명 textarea 고정 높이, 리사이즈 불가 */
+.product-detail-desc {
+  height: 90px;
+  min-height: 90px;
+  max-width: 100%;
+  resize: none;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1.5px solid #e35e5e; /* 테두리 진한 빨간색으로 변경 */
+  margin-bottom: 24px;
+  padding-left: 8px; /* padding-left 추가 */
+}
+
+/* 카테고리 선택 박스 */
+.product-select-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.product-select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 1.5px solid #e35e5e;  /* 테두리 색상 통일 */
+  border-radius: 2px;
+  font-size: 16px;
+  margin-bottom: 24px;
+  appearance: none; /* 기본 화살표 제거 (선택 사항) */
+  background: white;
+  height: 38px; /* 높이 input과 비슷하게 */
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* 입력란 묶음 (구매시기, 사용기간, 설명) */
+.product-detail-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0;
+  margin-bottom: 10px;
+}
+
+/* 판매 버튼 */
+.submit-btn {
+  align-self: center;
+  background: #1ab042;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+/* 이미지 박스 내부 이미지 크기 */
+#product-img-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .product-form-container {
+    width: 98vw;
+    min-width: 0;
+  }
+}
