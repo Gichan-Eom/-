@@ -1,6 +1,6 @@
-📦 Used Marketplace (중고거래 플랫폼)
-📖 프로젝트 소개
+#📦 Resale_Platform (중고거래 플랫폼)
 
+#📖 프로젝트 소개
 PHP와 Oracle Database를 활용하여 구현한 중고거래 플랫폼 웹 서비스입니다.
 사용자가 상품을 등록하고 거래할 수 있으며, 관심상품 관리와 WebSocket 기반 1:1 실시간 채팅 기능을 제공합니다.
 
